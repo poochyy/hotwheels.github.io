@@ -236,7 +236,7 @@ body {
   width: 100%;
   height: 454px;
   background-color: #f3e1d5;
-  background-image: url("/img/header-background-image.jpg");
+  background-image: url(/img/header-background-image.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 36px;
@@ -843,7 +843,7 @@ body {
   height: 450px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("/img/form-background.jpg");
+  background-image: url(/img/form-background.jpg);
   margin-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
