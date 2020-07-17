@@ -1,0 +1,240 @@
+.products {
+  max-width: 1060px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+
+.products__store {
+  text-align: center;
+  height: initial;
+
+  @media (min-width: 740px) {
+    height: 1426px;
+
+  }
+}
+
+.product__store-heading {
+  color: #f1f1f1;
+  font-family: "Teko";
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 123px;
+  text-transform: uppercase;
+}
+
+.product__store-categories {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+  @media (min-width: 740px) {
+    display: initial;
+    flex-direction: row;
+    padding-bottom: 50px;
+    margin-bottom: 75px;
+    border-bottom: 2px solid #b2b2b2;
+  }
+
+}
+
+.product__store-categories button {
+  background: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 21px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.2;
+  cursor: pointer;
+
+  @media (min-width: 740px) {
+    margin-right: 45px;
+
+  }
+}
+
+.product__store-categories button:last-child {
+  margin-right: 0;
+}
+
+.product__store-categories-link:last-child {
+  margin-right: 0;
+}
+
+.product__store-categories button:hover {
+  color: #0077ff;
+}
+
+.product__store-stock {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+
+  @media (min-width: 740px) {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 200px;
+
+  }
+
+  @media (min-width: 980px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.product__store-stock-card {
+  width: 320px;
+  height: 520px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.product-image {
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 80px;
+}
+
+.product-name {
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: #262626;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.75px;
+}
+
+.product-price {
+  text-decoration: none;
+  color: #004cff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38.25px;
+  margin-bottom: 30px;
+}
+
+.product-price:hover {
+  color: #0544d6;
+}
+
+.active {
+  color: #0544d6;
+
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.product__store-stock-card:hover {
+  box-shadow: 10px 10px 7px 0px black;
+}
+
+.products-after {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  margin-top: 130px;
+  flex-direction: column;
+
+  @media (min-width: 740px) {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+  }
+
+  @media (min-width: 980px) {
+    width: 1350px;
+    flex-direction: row;
+
+  }
+}
+
+.products-after__link {
+  display: block;
+}
+
+.products-after__link img {
+  width: 100%;
+}
+
+.product-after-photo {
+  position: relative;
+  // background-image: url(/img/products-after-2.jpg);
+  height: 307px;
+  color: #262626;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Teko";
+
+  @media (min-width: 740px) {
+    max-width: 777px;
+    height: 488px;
+
+  }
+}
+
+.product-after-upper-text {
+  position: absolute;
+  top: 53px;
+  right: 247px;
+  font-size: 52px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+
+  @media (min-width: 740px) {
+    top: 46px;
+    right: 190px;
+    font-size: 95px;
+  }
+
+  @media (min-width: 320px) {
+    top: 9px;
+    right: 90px;
+    font-size: 36px;
+  }
+}
+
+.product-after-lower-text {
+  position: absolute;
+  top: 67px;
+  right: 66px;
+  width: 174px;
+  font-size: 75px;
+  line-height: 0.9;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @media (min-width: 740px) {
+    top: 150px;
+    right: 159px;
+    font-size: 77px;
+  }
+
+  @media (min-width: 320px) {
+    top: 52px;
+    right: 14px;
+    width: 140px;
+    font-size: 50px;
+  }
+}
+
+.active {
+  color: #0544d6 !important;
+
+}

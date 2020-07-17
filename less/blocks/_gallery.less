@@ -1,0 +1,26 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 105px;
+  justify-content: center;
+
+  @media (min-width: 740px) {
+    justify-content: center;
+    // min-width: 1440px;
+    flex-wrap: nowrap;
+  }
+}
+
+// .gallery-photo {
+//   @media (min-width: 980px) {
+//     height: 480px;
+//   }
+
+//   height: initial;
+
+// }
+
+.gallery-photo img {
+  width: 100%;
+}
